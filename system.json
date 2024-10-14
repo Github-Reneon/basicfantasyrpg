@@ -35,6 +35,6 @@
   "secondaryTokenAttribute": null,
   "url": "https://github.com/Github-Reneon/basicfantasyrpg",
   "manifest": "https://raw.githubusercontent.com/Github-Reneon/basicfantasyrpg/main/system.json",
-  "download": "https://github.com/Github-Reneon/basicfantasyrpg/archive/refs/tags/r13.zip",
+  "download": "https://github.com/Github-Reneon/basicfantasyrpg/releases/download/test/bfrpg.-.test.zip",
   "license": "LICENSE.txt"
 }
