@@ -232,7 +232,7 @@ export class BasicFantasyRPGActorSheet extends ActorSheet {
         const li = $(ev.currentTarget).parents('.item');
         const item = this.actor.items.get(li.data('itemId'));
         let newValue = item.system.prepared.value + parseInt(change);
-        item.update({'system.prepared.value': newValue});
+        item.updateSource({'system.prepared.value': newValue});
       }
     });
 
@@ -243,7 +243,7 @@ export class BasicFantasyRPGActorSheet extends ActorSheet {
         const li = $(ev.currentTarget).parents('.item');
         const item = this.actor.items.get(li.data('itemId'));
         let newValue = item.system.quantity.value + parseInt(change);
-        item.update({'system.quantity.value': newValue});
+        item.updateSource({'system.quantity.value': newValue});
       }
     });
 
@@ -255,7 +255,7 @@ export class BasicFantasyRPGActorSheet extends ActorSheet {
 
     // Siege Engine range bonuses
     if (this.actor.type === 'siegeEngine') {
-      html.find('input[name="rangeBonus"]').click(ev => this.actor.update({'system.rangeBonus.value': Number(ev.currentTarget.value)}));
+      html.find('input[name="rangeBonus"]').click(ev => this.actor.updateSource({'system.rangeBonus.value': Number(ev.currentTarget.value)}));
     }
 
     // Drag events for macros.
