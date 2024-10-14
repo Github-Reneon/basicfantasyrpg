@@ -33,8 +33,8 @@
   ],
   "primaryTokenAttribute": "hitPoints",
   "secondaryTokenAttribute": null,
-  "url": "https://github.com/orffen/basicfantasyrpg",
-  "manifest": "https://raw.githubusercontent.com/orffen/basicfantasyrpg/main/system.json",
-  "download": "https://github.com/orffen/basicfantasyrpg/archive/refs/tags/r13.zip",
+  "url": "https://github.com/Github-Reneon/basicfantasyrpg",
+  "manifest": "https://raw.githubusercontent.com/Github-Reneon/basicfantasyrpg/main/system.json",
+  "download": "https://github.com/Github-Reneon/basicfantasyrpg/archive/refs/tags/r13.zip",
   "license": "LICENSE.txt"
 }
