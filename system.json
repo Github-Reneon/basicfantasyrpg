@@ -1,17 +1,17 @@
 {
-  "id": "basicfantasyrpg",
-  "title": "Basic Fantasy RPG",
+  "id": "basicfantasyrpg - test",
+  "title": "Basic Fantasy RPG - test",
   "description": "The Basic Fantasy RPG system for FoundryVTT!",
-  "version": "r13",
+  "version": "r14 - test",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "12",
     "verified": "11"
   },
   "authors": [
     {
-      "name": "Orffen",
-      "email": "orffen@orffenspace.com",
-      "discord": "Orffen"
+      "name": "Reneon",
+      "email": "andrewlpriv@gmail.com",
+      "discord": "Reneon"
     }
   ],
   "esmodules": ["module/basicfantasyrpg.mjs"],
@@ -25,12 +25,16 @@
       "path": "lang/en.json"
     }
   ],
-  "gridDistance": 5,
-  "gridUnits": "ft",
+  "grid": [
+    {
+    "distance": 5,
+    "units": "ft"
+    }
+  ],
   "primaryTokenAttribute": "hitPoints",
   "secondaryTokenAttribute": null,
-  "url": "https://github.com/orffen/basicfantasyrpg",
-  "manifest": "https://raw.githubusercontent.com/orffen/basicfantasyrpg/main/system.json",
-  "download": "https://github.com/orffen/basicfantasyrpg/archive/refs/tags/r13.zip",
+  "url": "https://github.com/Github-Reneon/basicfantasyrpg",
+  "manifest": "https://raw.githubusercontent.com/Github-Reneon/basicfantasyrpg/main/system.json",
+  "download": "https://github.com/Github-Reneon/basicfantasyrpg/archive/refs/tags/r13.zip",
   "license": "LICENSE.txt"
 }
