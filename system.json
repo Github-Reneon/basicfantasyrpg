@@ -1,17 +1,17 @@
 {
-  "id": "basicfantasyrpg",
-  "title": "Basic Fantasy RPG",
+  "id": "basicfantasyrpg - test",
+  "title": "Basic Fantasy RPG - test",
   "description": "The Basic Fantasy RPG system for FoundryVTT!",
-  "version": "r13",
+  "version": "r14 - test",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "12",
     "verified": "11"
   },
   "authors": [
     {
-      "name": "Orffen",
-      "email": "orffen@orffenspace.com",
-      "discord": "Orffen"
+      "name": "Reneon",
+      "email": "andrewlpriv@gmail.com",
+      "discord": "Reneon"
     }
   ],
   "esmodules": ["module/basicfantasyrpg.mjs"],
